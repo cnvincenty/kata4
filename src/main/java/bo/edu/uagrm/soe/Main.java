@@ -4,13 +4,13 @@ public class Main {
     public static void main(String[] args) {
 
         PDFReportGenerator pdfReportGenerator = new PDFReportGenerator();
-        System.out.println(pdfReportGenerator.generateReport("ArchivoPDF"));
+        pdfReportGenerator.generateReport();
 
         ExcelReportGenerator excelReportGenerator = new ExcelReportGenerator();
-        System.out.println(excelReportGenerator.generateReport("ArchivoExcel"));
+        excelReportGenerator.generateReport();
 
         HTMLReportGenerator htmlReportGenerator = new HTMLReportGenerator();
-        System.out.println(htmlReportGenerator.generateReport("ArchivoHTML"));
+        htmlReportGenerator.generateReport();
 
     }
 }

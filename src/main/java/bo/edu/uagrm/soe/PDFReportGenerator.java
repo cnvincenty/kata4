@@ -3,9 +3,9 @@ package bo.edu.uagrm.soe;
 public class PDFReportGenerator implements ReportGenerator {
 
     @Override
-    public String generateReport(String title) {
+    public void generateReport() {
 
-        return title;
+        System.out.println("Generando Reporte PDF");
     }
 
 }
